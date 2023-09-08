@@ -2,19 +2,21 @@
   width: 656px;
   height: 499px;
   box-shadow: 0px 0px 0px transparent;
-  background: radial-gradient(rgba(186, 255, 195, 0.5) 30%, transparent 70%);
+  background: rgba(186, 255, 195, 1);
+  background: #BAFFC3;
+  filter: blur(100px);
   border-radius: 50%;
   grid-row: 1/2;
   grid-column: 1/2;
   position: relative;
-  bottom: 250px;
+  bottom: 150px;
   right: 200px;
   z-index: -1;
 }
 
 @media screen and (max-width: 900px) {
   .portfolio__background {
-    bottom: -100px;
+    bottom: 0px;
     right: 200px;
   }
 }
