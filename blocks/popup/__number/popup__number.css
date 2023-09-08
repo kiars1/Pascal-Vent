@@ -13,7 +13,7 @@
   width: 22px;
   height: 22px;
   background-image: url(../../../images/call.png);
-  background-size: contain; 
+  background-size: contain;
   background-repeat: no-repeat;
   padding-right: 15px;
   align-self: center;
@@ -25,7 +25,6 @@
 }
 
 @media screen and (max-width: 480px) {
-
   .popup__number:nth-child(2) {
     grid-row: 3;
     grid-column: 1;

@@ -6,6 +6,25 @@
   border-radius: 25px;
   overflow: hidden;
   box-shadow: 0px 0px 10px 0px rgba(73, 93, 76, 0.5);
+  margin: auto;
+}
+
+@media screen and (max-width: 650px) {
+  .installation__box {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .installation__box {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .installation__box {
+    max-width: 120px;
+  }
 }
 
 .installation__box:hover .installation__image {
