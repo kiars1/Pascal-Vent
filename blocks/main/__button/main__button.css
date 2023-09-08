@@ -1,5 +1,5 @@
 .main__button {
-  margin: 77px auto 80px 8.5%;
+  margin: 77px auto 0px 8.5%;
   font-size: 17px;
   line-height: 23.3px;
   padding: 32px 126px 32px 126px;
@@ -12,7 +12,7 @@
 @media screen and (max-width: 680px) {
   .main__button {
     padding: 32px 52px 32px 52px;
-    margin: 47px auto 296px auto;
+    margin: 47px auto 0px auto;
     display: block;
     width: 85%;
   }
