@@ -28,6 +28,7 @@
 @import url(../blocks/main/__title-line/main__title-line.css);
 @import url(../blocks/main/__background/main__background.css);
 
+@import url(../blocks/services/services.css);
 @import url(../blocks/services/__title/services__title.css);
 @import url(../blocks/services/__buttonbox/services__buttonbox.css);
 @import url(../blocks/services/__list/services__list.css);
