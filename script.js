@@ -135,7 +135,6 @@ class Form {
           "application/x-www-form-urlencoded; charset=UTF-8"
         );
         xhr.send(data);
-        console.log(data)
       } catch (e) {
       } finally {
         evt.target.reset();
@@ -202,7 +201,6 @@ class FormValidator {
 
   //Тут мы берем под потранаж кнопку "Сохранить"
   _toggleButtonState() {
-    console.log(this._hasInvalidInput())
     if (this._hasInvalidInput()) {
       this._buttonElement.setAttribute("disabled", "disabled");
     } else {
