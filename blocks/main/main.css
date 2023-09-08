@@ -3,11 +3,11 @@
   position: relative;
   margin: auto;
   width: 100vw;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 680px) {
   .main {
     background: linear-gradient(to left, #F1F1F1, #DEE2E1);
-    overflow: hidden;
   }
 }
