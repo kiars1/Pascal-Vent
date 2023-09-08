@@ -46,7 +46,7 @@
 
    [Страница Pascal Vent](https://kiars1.github.io/Pascal-Vent)
    
-   <a href="https://kiars1.github.io/Pascal-Vent"><img src="./images/Pascal.png" max-width="1000" title="Pascal Vent"></a>
+   <img src="./images/Pascal.png" max-width="1000" title="Pascal Vent">
 
 ## Развитие проекта
 
