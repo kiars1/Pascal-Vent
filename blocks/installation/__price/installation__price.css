@@ -7,5 +7,6 @@
   .installation__price  {
     margin: 45px 0px 0px 0px;
     padding: 0px 0px 65px 0px;
+    max-width: 95%;
   }
 }

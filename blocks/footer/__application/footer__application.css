@@ -11,5 +11,6 @@
     grid-row: 3;
     grid-column: 1;
     margin: 30px 0px 0px 0px;
+    max-width: 90%;
   }
 }
