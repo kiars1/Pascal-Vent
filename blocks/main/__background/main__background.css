@@ -14,7 +14,7 @@
     top: 800px;
     margin: auto;
     display: block;
-    width: 200vw;
+    height: 100vw;
     transform: rotate(90deg);
   }
 }
