@@ -1,6 +1,5 @@
 .comfort__photo-list {
   display: grid;
-  max-width: 600px;
   margin: 0px;
   align-content: center;
   column-gap: 35px;
