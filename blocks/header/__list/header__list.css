@@ -1,8 +1,9 @@
 .header__list {
   list-style-type: none;
   padding: 0px;
-  display: flex;
+  display: grid;
   gap: 40px;
+  grid-auto-flow: column;
 }
 
 @media screen and (max-width: 1400px) {

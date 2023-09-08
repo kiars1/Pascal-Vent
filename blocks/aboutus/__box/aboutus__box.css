@@ -1,19 +1,41 @@
 .aboutus__box:nth-child(1) {
   grid-row: 1;
-  grid-column: 1/3;
+  grid-column: 1;
 }
 
 .aboutus__box:nth-child(2) {
-    grid-row: 2;
-    grid-column: 2/4;
+  grid-row: 1;
+  grid-column: 2;
 }
 
 .aboutus__box:nth-child(3) {
-    grid-row: 3;
-    grid-column: 1/3;
+  grid-row: 2;
+  grid-column: 1;
 }
 
 .aboutus__box:nth-child(4) {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+@media screen and (max-width: 1268px) {
+  .aboutus__box:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1/3;
+  }
+
+  .aboutus__box:nth-child(2) {
+    grid-row: 2;
+    grid-column: 2/4;
+  }
+
+  .aboutus__box:nth-child(3) {
+    grid-row: 3;
+    grid-column: 1/3;
+  }
+
+  .aboutus__box:nth-child(4) {
     grid-row: 4;
     grid-column: 2/4;
+  }
 }

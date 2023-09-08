@@ -1,7 +1,9 @@
 .comfort__paragraph {
   color: #7CA381;
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
   max-width: 469px;
+  justify-content: start;
   column-gap: 10px;
   margin-top: 15px;
 }

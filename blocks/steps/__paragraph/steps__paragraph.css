@@ -1,8 +1,10 @@
 .steps__paragraph {
   color: #7CA381;
-  display: flex;
+  display: grid;
   column-gap: 10px;
+  grid-auto-flow: column;
   margin-top: 10px;
+  justify-content: start;
 }
 
 .steps__paragraph::before {

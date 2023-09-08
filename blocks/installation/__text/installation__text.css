@@ -9,6 +9,7 @@
   padding: 12px 0px 12px 15px;
   margin: 0px;
   font-weight: 500;
+  z-index: 2;
 }
 
 @media screen and (max-width: 630px) {
