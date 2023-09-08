@@ -1,0 +1,50 @@
+.installation__line {
+  border: solid #78C081 1px;
+  width: 28%;
+  max-width: 234px;
+  bottom: 30px;
+  left: 620px;
+  position: relative;
+  border-radius: 2px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1440px) {
+  .installation__line {
+    bottom: 2.174vw;
+    left: 44.92vw;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .installation__line {
+    bottom: 2.174vw;
+    left: 40vw;
+  }
+}
+
+@media screen and (max-width: 1032px) {
+  .installation__line {
+    bottom: 2.174vw;
+    left: 20vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .installation__line {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .installation__line {
+    opacity: 1;
+    left: 55vw;
+    bottom: 55px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .installation__line {
+    opacity: 0;
+  }
+}

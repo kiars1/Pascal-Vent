@@ -1,0 +1,6 @@
+.client__image {
+  overflow: hidden;
+  width: 258px;
+  height: 116px;
+  object-fit:scale-down;
+}

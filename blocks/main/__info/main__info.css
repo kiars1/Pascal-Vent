@@ -1,0 +1,21 @@
+.main__info {
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 52px auto 0px 8.5%;
+}
+
+@media screen and (max-width: 680px) {
+  .main__info  {
+    display: grid;
+    margin: 46px 20% 0px 20%;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .main__info  {
+    display: grid;
+    margin: 46px 10% 0px 10%;
+  }
+}

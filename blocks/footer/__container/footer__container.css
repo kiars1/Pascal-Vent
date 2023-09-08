@@ -1,0 +1,21 @@
+.footer__container {
+    display: grid;
+    flex-wrap: wrap;
+    max-width: 1240px;
+    margin: auto;
+    justify-content: space-between;
+    align-content: center;
+    padding-bottom: 94px;
+}
+
+@media screen and (max-width: 1400px) {
+  .footer__container {
+    margin: 0px 5% 0px 5%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .footer__container {
+    justify-content: center;
+  }
+}

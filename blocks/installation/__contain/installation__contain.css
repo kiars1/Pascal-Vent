@@ -1,0 +1,10 @@
+.installation__contain {
+  margin: auto;
+  max-width: 1240px;
+}
+
+@media screen and (max-width: 1400px) {
+  .installation__contain {
+    margin: 0px 5% 0px 5%;
+  }
+}

@@ -1,0 +1,28 @@
+.installation__text {
+  font-size: 16px;
+  line-height: 21.5px;
+  color: #78C081;
+  font-family: 'Ruberoid';
+  grid-column: 1/3;
+  grid-row: 3;
+  z-index: 2;
+  background-color: #fff;
+  padding: 12px 0px 12px 15px;
+  margin: 0px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 630px) {
+  .installation__text {
+    font-size: 2.54vw;
+    line-height: 3.49vw;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .installation__text {
+    font-size: 12px;
+    line-height: 18.8px;
+    padding: 10px 0px 10px 5px !important;
+  }
+}

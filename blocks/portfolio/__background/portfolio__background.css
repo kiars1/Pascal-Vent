@@ -1,0 +1,20 @@
+.portfolio__background {
+  width: 656px;
+  height: 499px;
+  box-shadow: 0px 0px 0px transparent;
+  background: radial-gradient(rgba(186, 255, 195, 0.5) 30%, transparent 70%);
+  border-radius: 50%;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  position: relative;
+  bottom: 250px;
+  right: 200px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 900px) {
+  .portfolio__background {
+    bottom: -100px;
+    right: 200px;
+  }
+}

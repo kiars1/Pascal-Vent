@@ -1,0 +1,40 @@
+.header__button-content_close {
+  display:block;
+  width: 30px;
+  height: 16px;
+  border-radius: 2px;
+  content: "";
+  display: block;
+  align-self: center;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: background-image 0.5s ease;
+}
+
+.header__button-content_close::before {
+  width: 30px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #5CCD6A;
+  content: "";
+  display: block;
+  position: relative;
+  top: 7px;
+  transform: rotate(45deg);
+  transition: 0.5s ease;
+}
+
+.header__button-content_close::after {
+  width: 30px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #5CCD6A;
+  content: "";
+  display:block;
+  position: relative;
+  top: 5px;
+  transform: rotate(-45deg);
+  transition: 0.5s ease;
+}

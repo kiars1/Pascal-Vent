@@ -1,0 +1,14 @@
+.footer__about {
+  max-width: 406px;
+  color: #7CA381;
+  margin: 0px auto 0px auto;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+@media screen and (max-width: 1050px) {
+  .footer__about {
+    grid-row: 4;
+    grid-column: 1;
+  }
+}

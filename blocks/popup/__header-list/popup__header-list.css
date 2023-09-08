@@ -1,0 +1,15 @@
+.popup__header-list {
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 10vw;
+  margin-top: 150px;
+  max-width: 280px;
+}
+
+@media screen and (max-width: 500px) {
+  .popup__header-list {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}

@@ -1,0 +1,9 @@
+.client__button {
+  width: 24px !important;
+  height: 24px !important;
+  position:static !important;
+}
+
+.client__button::after {
+  content: "" !important;
+}

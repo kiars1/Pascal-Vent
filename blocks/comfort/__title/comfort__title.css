@@ -1,0 +1,15 @@
+.comfort__title {
+  margin: 156px 0px 28px 0px !important;
+}
+
+@media screen and (max-width: 1250px) {
+  .comfort__title {
+    margin: 70px auto 0px auto;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .comfort__title {
+    margin-top: 70px !important;
+  }
+}

@@ -1,0 +1,13 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: auto;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1040px) {
+  .header__container {
+    display: none;
+  }
+}

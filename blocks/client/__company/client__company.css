@@ -1,0 +1,27 @@
+.client__company {
+  margin: 0px 20px 0px 20px;
+  padding: 10px;
+  position: relative;
+  transition: 1s ease;
+  opacity: 0;
+}
+
+@media screen and (max-width: 1190px) {
+  .client__company {
+    margin: 0px 10vw 0px 0px;
+    padding: 10px 0px 45px 0px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .client__company {
+    padding: 0px 0px 45px 0px;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .client__company {
+    padding: 0px 0px 45px 0px;
+  }
+}

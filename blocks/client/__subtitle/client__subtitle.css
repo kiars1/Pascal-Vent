@@ -1,0 +1,18 @@
+.client__subtitle {
+  max-width: 627px;
+  margin: 25px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1400px) {
+  .client__subtitle {
+    font-size: 1.11vw;
+    line-height: 1.806vw;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .client__subtitle {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

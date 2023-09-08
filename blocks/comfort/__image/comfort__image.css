@@ -1,0 +1,31 @@
+.comfort__image {
+  border: solid 2px #78C081;
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 66px;
+  height: 36px;
+  display: flex;
+  image-resolution: 40%;
+  background-image: url(../../../images/air.jpg);
+}
+
+.comfort__image:nth-child(2) {
+  background-image: url(../../../images/temp.jpg);
+}
+
+.comfort__image:nth-child(3) {
+  background-image: url(../../../images/eco.jpg);
+}
+
+.comfort__image:nth-child(4) {
+  background-image: url(../../../images/clear.jpg);
+}
+
+.comfort__image:nth-child(5) {
+  background-image: url(../../../images/humidity.jpg);
+}
+
+.comfort__image:nth-child(6) {
+  background-image: url(../../../images/pollution.jpg);
+}

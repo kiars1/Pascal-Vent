@@ -1,0 +1,19 @@
+.services__info {
+  width: 560px;
+  margin: 169px 110px 170px 8.5%;
+  grid-column: 1;
+}
+
+@media screen and (max-width: 1250px) {
+  .services__info {
+    margin: 0px 110px 0px 8.5%;
+    max-width: 444px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .services__info {
+    width: 90%;
+    margin: auto;
+  }
+}

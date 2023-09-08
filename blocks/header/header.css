@@ -1,0 +1,19 @@
+.header {
+  width: 100vw;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-color: transparent;
+  z-index: 3;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  border-radius: 0px 0px 70px 70px;
+  transition: position 0.3s ease;
+}
+
+.header__down {
+  position: fixed;
+  background-color: #D9FADD;
+  transition: 0.3s ease;
+}

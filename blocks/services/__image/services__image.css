@@ -1,0 +1,47 @@
+.services__image {
+  object-position:80% 40%;
+  object-fit: cover;
+  border-radius: 65px;
+  box-shadow: -4px 0px 8px 0px rgba(15, 44, 15, 0.35);
+  max-width: 300px;
+  pointer-events: none;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1250px) {
+  .services__image {
+    width: 93%;
+    height: 170px;
+    object-fit: cover;
+    object-position: top;
+    overflow: hidden;
+    margin: 10px 15px 15px 15px;
+    grid-column: 1;
+    border-radius: 50px;
+    max-width: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .services__image {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services__image {
+    width: 94%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .services__image {
+    width: 92%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .services__image {
+    width: 90%;
+  }
+}

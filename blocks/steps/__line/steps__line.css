@@ -1,0 +1,23 @@
+.steps__line {
+  border: solid #78C081 1px;
+  width: 20%;
+  max-width: 98px;
+  position: relative;
+  bottom: 25px;
+  left: 420px;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 1400px ) {
+  .steps__line {
+    left: 29.167vw;
+    bottom: 1.736vw;
+  }
+}
+
+@media screen and (max-width: 850px ) {
+  .steps__line {
+    left: 220px;
+    bottom: 17px;
+  }
+}

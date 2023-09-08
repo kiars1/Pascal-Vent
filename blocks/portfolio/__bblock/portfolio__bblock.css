@@ -1,0 +1,13 @@
+.portfolio__bblock {
+  display: flex;
+  justify-content: center;
+  position:absolute !important;
+  top: -60px;
+}
+
+@media screen and (max-width: 900px) {
+  .portfolio__bblock {
+    position:static !important;
+    margin-top: 20px;
+  }
+}

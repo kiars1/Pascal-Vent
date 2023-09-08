@@ -1,0 +1,16 @@
+.comfort__benefits {
+  max-width: 502px;
+  margin: auto auto auto 8.5%;
+}
+
+@media screen and (max-width: 1250px) {
+  .comfort__benefits {
+    margin: 0px auto 0px auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .comfort__benefits {
+    margin: 0px 8.5% 0px 8.5%;
+  }
+}

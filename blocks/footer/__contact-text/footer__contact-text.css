@@ -1,0 +1,19 @@
+.footer__contact-text {
+  color: #7B897D;
+  margin: 0px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__contact-text {
+    font-size: 1.11vw;
+    line-height: 1.67vw;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .footer__contact-text {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}

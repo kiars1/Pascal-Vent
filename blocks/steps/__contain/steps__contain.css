@@ -1,0 +1,17 @@
+.steps__contain {
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto 100px auto auto;
+}
+
+@media screen and (max-width: 1400px) {
+  .steps__contain  {
+    grid-template-columns: auto auto 10vw auto auto;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .steps__contain  {
+    grid-template-columns: auto 0px 0px 0px 0px 0px;
+  }
+}

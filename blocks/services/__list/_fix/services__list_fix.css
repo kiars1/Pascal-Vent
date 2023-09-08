@@ -1,0 +1,9 @@
+.services__list_fix {
+  margin-bottom: 166px;
+}
+
+@media screen and (max-width: 1250px) {
+  .services__list_fix {
+    margin-bottom: 0px;
+  }
+}

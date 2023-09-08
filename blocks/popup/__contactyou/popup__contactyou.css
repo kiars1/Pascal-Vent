@@ -1,0 +1,31 @@
+.popup__contactyou {
+  border-radius: 50px;
+  position: relative;
+  background-color: #D9FADD;
+  max-width: 412px;
+  box-shadow: 0px 0px 10px 0px rgba(73, 93, 76, 0.5);
+}
+
+@media screen and (max-height: 830px) {
+  .popup__contactyou {
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (max-height: 630px) {
+  .popup__contactyou {
+    margin-top: 40vh;
+  }
+}
+
+@media screen and (max-height: 490px) {
+  .popup__contactyou {
+    margin-top: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .popup__contactyou {
+    max-width: 90%;
+  }
+}

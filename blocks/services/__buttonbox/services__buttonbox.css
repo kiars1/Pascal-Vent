@@ -1,0 +1,24 @@
+.services__buttonbox {
+  border-radius: 40px 0px 0px 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+@media screen and (max-width: 1250px) {
+  .services__buttonbox {
+    display: block;
+    border-radius: 50px 50px 0px 0px;
+    box-shadow: none !important;
+    padding: 15px;
+    background-color: #D9FADD !important;
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .services__buttonbox {
+    padding: 15px 15px 0px 15px;
+  }
+}

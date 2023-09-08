@@ -1,0 +1,25 @@
+.services__list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 114px 40px 114px 40px;
+}
+
+@media screen and (max-width: 1400px) {
+  .services__list {
+    margin: 7.917vw 2.778vw 7.917vw 2.778vw;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+    .services__list {
+      margin: 25px auto -10px 20px;
+      grid-column: 1;
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+  .services__list {
+    width: 90%;
+  }
+}

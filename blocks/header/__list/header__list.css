@@ -1,0 +1,18 @@
+.header__list {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1400px) {
+  .header__list {
+    gap: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .header__list {
+    gap: 10px;
+  }
+}

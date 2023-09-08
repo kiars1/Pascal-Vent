@@ -1,0 +1,23 @@
+.services__punkt-image {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  margin: 0px 15px 0px 0px;
+  pointer-events: none;
+  user-select: none;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .services__punkt-image {
+    width: 2.361vw;
+    height: 2.361vw;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .services__punkt-image {
+    width: 30px;
+    height: 30px;
+  }
+}

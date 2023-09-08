@@ -1,0 +1,17 @@
+.footer__contact-image {
+  max-height: 31px;
+  max-width: 24px;
+  margin-right: 15px;
+  pointer-events: none;
+  user-select: none;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media screen and (max-width: 375px) {
+  .footer__contact-image {
+    max-height: 20px;
+    max-width: 16px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,141 @@
+.services__button:disabled {
+  margin: 0px;
+  padding: 25px 15px 25px 15px;
+  font-size: 14px;
+  line-height: 17.05px;
+  text-transform: none !important;
+  font-family: 'Montserrat' !important;
+  font-weight: normal !important;
+  box-shadow: inset 0px 0px 10px 5px rgba(34, 111, 33, 0.36) !important;
+  background-color: #5CCD6A !important;
+  color: #fff !important;
+  transition: 1s ease !important;
+}
+
+.services__button:disabled:hover {
+  color: #fff !important;
+  background-color: #54E165 !important;
+  transition: color 1s ease !important;
+  cursor: pointer !important;
+}
+
+.services__button:hover {
+  color: #54E165 !important;
+  transition: color 1s ease !important;
+  cursor: pointer !important;
+}
+
+.services__button {
+  margin: 0px;
+  padding: 25px 15px 25px 15px;
+  font-size: 14px;
+  line-height: 17.05px;
+  text-transform: none !important;
+  font-family: 'Montserrat' !important;
+  font-weight: normal !important;
+  box-shadow: 0px 0px 0px 0px #fff !important;
+  background-color: #fff !important;
+  color: #7CA281 !important;
+  transition: 1s ease !important;
+}
+
+.services__button:nth-child(1) {
+  margin: 0px;
+  padding: 25px 15px 25px 15px;
+  font-size: 14px;
+  line-height: 17.05px;
+  text-transform: none !important;
+  font-family: 'Montserrat' !important;
+  font-weight: normal !important;
+}
+
+.services__button:nth-child(1):disabled::before {
+  content: "";
+  width: 33px;
+  height: 33px;
+  display: block;
+  margin:  0px 0px 23px 0px;
+  background-image: url(../../../images/vent.png);
+  animation: rotation 5s linear infinite;
+}
+
+.services__button:nth-child(1)::before {
+  content: "";
+  width: 33px;
+  height: 33px;
+  display: block;
+  margin:  0px 0px 23px 0px;
+  background-image: url(../../../images/coldisable.png);
+  animation: none;
+}
+
+.services__button:nth-child(2) {
+  margin: 0px;
+  padding: 25px 15px 25px 15px;
+  font-size: 14px;
+  line-height: 17.05px;
+  text-transform: none !important;
+  font-family: 'Montserrat' !important;
+  font-weight: normal !important;
+}
+
+.services__button:nth-child(2):disabled::before {
+  content: "";
+  width: 33px;
+  height: 27px;
+  display: block;
+  margin:  0px 0px 23px 0px;
+  background-image: url(../../../images/cond.png);
+}
+
+.services__button:nth-child(2)::before {
+  content: "";
+  width: 33px;
+  height: 27px;
+  display: block;
+  margin:  0px 0px 23px 0px;
+  background-image: url(../../../images/conddisable.png);
+  transition: 1s ease !important;
+}
+
+.services__button:nth-child(2):hover::before {
+  background-image: url(../../../images/condeihover.png); 
+  transition: 1s ease !important;
+}
+
+.services__button:nth-child(2):disabled:hover::before {
+  background-image: url(../../../images/cond.png); 
+  transition: 1s ease !important;
+}
+
+@media screen and (max-width: 1250px) {
+  .services__button:nth-child(1) {
+    box-shadow: none !important;
+    border-radius: 40px 0px 0px 0px;
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .services__button:nth-child(2) {
+    box-shadow: none !important;
+    border-radius: 0px 40px 0px 0px;
+    grid-row: 1;
+    grid-column: 2;
+  }
+  .services__button:nth-child(1)::before {
+    opacity: 0px !important;
+    display: none !important;
+  }
+  .services__button:nth-child(2)::before {
+    opacity: 0px !important;
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .services__button:nth-child(1) {
+    padding: 20px 10px 20px 20px !important;
+  }
+  .services__button:nth-child(2) {
+    padding: 20px 20px 20px 10px !important;
+  }
+}

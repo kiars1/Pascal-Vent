@@ -1,0 +1,18 @@
+.installation {
+  background-image: url(../../images/lungs.svg);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: 50% 50%;
+  margin: auto;
+  width: 100vw;
+}
+
+@media screen and (max-width: 950px) {
+  .installation {
+    background-image: url(../../images/lungs2.svg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 10px 10px #fff;
+    background-position: 100% 150px;
+  }
+}

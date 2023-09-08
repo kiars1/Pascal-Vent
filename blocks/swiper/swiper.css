@@ -1,0 +1,33 @@
+.swiper1 {
+  max-width: 270px;
+  height: 456px;
+  overflow: visible !important;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  margin-left: 0px !important;
+}
+
+@media screen and (max-width: 900px) {
+  .swiper1 {
+    height: 419px;
+    max-width: 270px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .swiper1 {
+    max-width: 270px;
+  }
+}
+
+.swiper2 {
+  max-width: 536px;
+  height: 170px;
+  overflow: visible !important;
+}
+
+@media screen and (max-width: 680px) {
+  .swiper2 {
+    max-width: 258px;
+  }
+}

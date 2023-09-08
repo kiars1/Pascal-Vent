@@ -1,0 +1,20 @@
+.main__title {
+  font-size: 64px;
+  line-height: 74px;
+  font-family: 'Ruberoid';
+  color: #495E4C;
+  padding-top: 167px;
+  margin: 0px auto 0px 8.5%;
+  max-width: 540px;
+  text-align: end;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 680px) {
+  .main__title   {
+    font-size: 36px;
+    line-height: 46px;
+    margin: 0px 3% 0px 3%;
+  }
+}

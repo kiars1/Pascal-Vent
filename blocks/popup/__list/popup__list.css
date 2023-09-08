@@ -1,0 +1,19 @@
+.popup__list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 17px auto 43px 30px;
+  row-gap: 45px;
+  column-gap: 21px;
+  display: grid;
+}
+
+@media screen and (max-width: 480px) {
+  .popup__list  {
+    width: 90%;
+    font-size: 22px !important;
+    line-height: 34px !important;
+    margin: 17px auto 43px 30px;
+    justify-content: start;
+    gap: 15px;
+  }
+}

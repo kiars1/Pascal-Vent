@@ -1,0 +1,23 @@
+.services__button-text {
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+}
+
+@media screen and (max-width: 1250px) {
+  .services__button-text {
+    writing-mode: horizontal-tb;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .services__button-text {
+    font-size: 2.800vw;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .services__button-text {
+    font-size: 10.3px;
+  }
+}

@@ -1,0 +1,25 @@
+.popup {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 100px 0px 0px 0px;
+  z-index: 10;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(217, 250, 221, 0.55);
+  backdrop-filter: blur(7px);
+  z-index: -1;
+  opacity: 0;
+  transition: z-index 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+  overflow: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.popup::-webkit-scrollbar {
+  display: none;
+}

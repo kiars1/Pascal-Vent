@@ -1,0 +1,13 @@
+.client__bblock {
+  display: flex;
+  justify-content: end;
+  margin-right: 100px;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 1190px) {
+  .client__bblock {
+    justify-content: center;
+    margin-right: 0px;
+  }
+}

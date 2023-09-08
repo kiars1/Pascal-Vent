@@ -1,0 +1,6 @@
+.client__wrapper {
+  z-index: 1;
+  list-style-type: none;
+  padding: 0px !important;
+  height: 116px !important;
+}

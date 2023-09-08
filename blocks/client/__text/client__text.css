@@ -1,0 +1,11 @@
+.client__text {
+  margin: 156px 50px 100px 0px;
+  max-width: 640px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1190px) {
+  .client__text  {
+    margin: 55px 10px 35px 10px;
+  }
+}

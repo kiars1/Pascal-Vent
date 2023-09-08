@@ -1,0 +1,13 @@
+.footer__application-button {
+  margin: 21px auto 0px 0px;
+  font-size: 15px;
+  line-height: 20.5px;
+  padding: 19px 50px 19px 50px;
+  border-radius: 17px;
+}
+
+@media screen and (max-width: 1050px) {
+  .footer__application-button {
+    margin: 21px 0px 0px 0px;
+  }
+}

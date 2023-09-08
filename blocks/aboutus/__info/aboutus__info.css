@@ -1,0 +1,25 @@
+.aboutus__info {
+  margin: 100px 100px 0px 8.5%;
+  box-shadow: -50px 0px 100px rgba(186, 255, 195, 0.5), 0px 0px 10px rgba(73, 93, 76, 0.1);
+  border-radius: 50px;
+  max-width: 440px;
+  padding: 33px 45px 33px 45px;
+}
+
+@media screen and (max-width: 1400px) {
+  .aboutus__info  {
+    margin: 100px auto 0px auto;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .aboutus__info {
+    margin: 50px auto 0px auto;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .aboutus__info {
+    padding: 25px;
+  }
+}

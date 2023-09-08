@@ -1,0 +1,13 @@
+.popup__graf {
+  color: #7CA381;
+  font-size: 14px;
+  line-height: 19.5px;
+  margin: 0px auto 0px 30px;
+  width: 350px;
+}
+
+@media screen and (max-width: 480px) {
+  .popup__graf {
+    width: 90%;
+  }
+}

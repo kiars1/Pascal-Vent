@@ -1,0 +1,20 @@
+.comfort__paragraph {
+  color: #7CA381;
+  display: flex;
+  max-width: 469px;
+  column-gap: 10px;
+  margin-top: 15px;
+}
+
+.comfort__paragraph::before {
+  content: "";
+  display: block;
+  background-image: url(../../../images/dot.svg),
+                    url(../../../images/overdot.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 5px;
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}

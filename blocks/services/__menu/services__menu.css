@@ -1,0 +1,21 @@
+.services__menu {
+  display: flex;
+  align-items: center;
+  grid-column: 2;
+}
+
+@media screen and (max-width: 1250px) {
+  .services__menu {
+    display: block;
+    padding-top: 30px;
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .services__menu {
+    max-width: 100%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,18 @@
+.aboutus__info-subtitle {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 1400px) {
+  .aboutus__info-subtitle {
+    font-size: 1.111vw;
+    line-height: 1.806vw;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .aboutus__info-subtitle {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

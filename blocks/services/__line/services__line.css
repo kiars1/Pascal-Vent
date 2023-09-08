@@ -1,0 +1,30 @@
+.services__line {
+  border: solid #78C081 1px;
+  width: 55%;
+  max-width: 243px;
+  position: relative;
+  bottom: 30px;
+  left: 200px;
+  border-radius: 2px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1400px) {
+  .services__line {
+    max-width: 16.875vw;
+    bottom: 20px;
+    left: 13.889vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .services__line {
+    max-width: 120px ;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .services__line {
+    left: 103px;
+  }
+}

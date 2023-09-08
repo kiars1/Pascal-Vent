@@ -1,0 +1,28 @@
+.installation__subtitle {
+  font-size: 15px;
+  font-weight: 18.27px;
+  background-color: #D9FADD;
+  color: #495D4C;
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 2;
+  border-radius: 0px 10px 10px 0px;
+  padding: 0px 15px 0px 15px;
+  margin: 14px 0px 0px 0px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 630px) {
+  .installation__subtitle {
+    font-size: 2.54vw;
+    border-radius: 0px 7px 7px 0px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .installation__subtitle {
+    font-size: 11px;
+    line-height: 13px;
+    padding: 5px 5px 5px 5px
+  }
+}

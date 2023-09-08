@@ -1,0 +1,19 @@
+.comfort__button {
+  margin: 50px auto 156px 0px;
+  font-size: 17px;
+  line-height: 23.31px;
+  padding: 32px 117px 32px 117px;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1250px) {
+  .comfort__button {
+    margin: 45px auto 70px auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .comfort__button {
+    padding: 32px 44px 32px 44px;
+  }
+}

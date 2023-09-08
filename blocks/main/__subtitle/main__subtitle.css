@@ -1,0 +1,12 @@
+.main__subtitle {
+  z-index: 2;
+  position: relative;
+  margin: 20px auto 0px 8.5%; 
+  display: flex;
+}
+
+.main__subtitle::before {
+  content: url(../../../images/roll.svg);
+  margin-top: 10px;
+  margin-right: 10px;
+}

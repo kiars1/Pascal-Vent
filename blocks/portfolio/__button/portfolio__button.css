@@ -1,0 +1,9 @@
+.portfolio__button {
+  width: 34px !important;
+  height: 34px !important;
+  position:static !important;
+}
+
+.portfolio__button::after {
+  content: "" !important;
+}

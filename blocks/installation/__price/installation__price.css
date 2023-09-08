@@ -1,0 +1,11 @@
+.installation__price {
+  margin: 85px 0px 0px 0px;
+  padding: 0px 0px 100px 0px;
+}
+
+@media screen and (max-width: 950px) {
+  .installation__price  {
+    margin: 45px 0px 0px 0px;
+    padding: 0px 0px 65px 0px;
+  }
+}

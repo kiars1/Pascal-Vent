@@ -1,0 +1,10 @@
+.header__container_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1040px) {
+  .header__container_mobile {
+    display: flex;
+    max-width: 90%;
+  }
+}

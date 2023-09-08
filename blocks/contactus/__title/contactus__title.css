@@ -1,0 +1,15 @@
+.contactus__title {
+  font-size: 35px;
+  line-height: 45px;
+  font-family: 'Ruberoid';
+  color: #495E4C;
+  margin: 0px auto 33px auto;
+  padding-top: 55px;
+}
+
+@media screen and (max-width: 1110px) {
+  .contactus__title  {
+    padding-top: 35px;
+    width: 80%;
+  }
+}

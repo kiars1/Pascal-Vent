@@ -1,0 +1,6 @@
+.comfort__container {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}

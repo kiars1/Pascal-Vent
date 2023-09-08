@@ -1,0 +1,24 @@
+.popup__nav {
+  background-color: #D9FADD;
+  width: 40vw;
+  height: 100%;
+  min-width: 320px;
+  margin-left: auto;
+  box-shadow: 0px 0px 20px 50px #D9FADD;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.popup__nav::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .popup__nav {
+    width: 100vw;
+    -ms-overflow-style: none;
+    display: grid;
+    justify-content: center;
+    align-content: start;
+  }
+}

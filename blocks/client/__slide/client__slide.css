@@ -1,0 +1,9 @@
+.client__slide {
+  width: 258px !important;
+  height: 116px !important;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(73, 93, 76, 0.5);
+  cursor: grab;
+}

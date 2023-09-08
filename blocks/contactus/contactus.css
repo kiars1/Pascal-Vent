@@ -1,0 +1,9 @@
+.contactus {
+  background-color: #D9FADD;
+  background-image: url(../../images/waves.png),
+                    url(../../images/BigCooler.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+  background-size: 80%, contain;
+  width: 100vw;
+}

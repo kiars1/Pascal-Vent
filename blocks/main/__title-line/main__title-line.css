@@ -1,0 +1,38 @@
+.main__title-line {
+  border: solid #78C081 2px;
+  width: 34%;
+  max-width: 144px;
+  position: relative;
+  top: 45px;
+  margin-left: 20px;
+  border-radius: 2px;
+  z-index: 10;
+}
+
+@media screen and (max-width: 680px) {
+  .main__title-line {
+    max-width: 89px;
+    top: 27px;
+    margin: 0px;
+    left: 30vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main__title-line {
+    margin: 0px;
+    left: 10vw;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .main__title-line {
+    left: 4vw;
+  }
+}
+
+@media screen and (max-width: 329px) {
+  .main__title-line {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,32 @@
+.footer__application-input {
+  border: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7CA381;
+  padding: 16px 20px 16px 20px;
+  border-radius: 15px;
+}
+
+.footer__application-input:nth-child(2) {
+  margin: 25px 0px 3px 0px;
+}
+
+.footer__application-input:nth-child(4) {
+  margin: 0px 0px 3px 0px;
+}
+
+.footer__application-input:nth-child(3) {
+  margin: 0px 0px 3px 20px;
+  padding: 0px;
+}
+
+.footer__application-input:nth-child(5) {
+  margin: 0px 0px 3px 20px;
+  padding: 0px;
+}
+
+.footer__application-input::placeholder {
+  font-size: 14px;
+  line-height: 17px;
+  color: #7CA381;
+}

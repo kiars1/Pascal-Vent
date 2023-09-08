@@ -1,0 +1,24 @@
+.client__container {
+  display: flex;
+  margin-left: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .client__container {
+    margin-left: 3%;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .client__container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .client__container {
+    justify-content: flex-start;
+  }
+}

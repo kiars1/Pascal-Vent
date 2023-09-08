@@ -1,0 +1,24 @@
+.aboutus__info-title {
+  font-size: 21px;
+  line-height: 30px;
+  color: #78C081;
+  border-bottom: solid 1px #78C081;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding-bottom: 3px;
+  vertical-align:30%;
+}
+
+@media screen and (max-width: 1400px) {
+  .aboutus__info-title {
+    font-size: 1.458vw;
+    line-height: 2.083vw;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .aboutus__info-title {
+    font-size: 15px;
+    line-height: 19.74px;
+  }
+}

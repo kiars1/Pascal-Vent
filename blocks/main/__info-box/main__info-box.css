@@ -1,0 +1,48 @@
+.main__info-box {
+  display: grid;
+  margin-right: 73px;
+}
+
+.main__info-box:nth-child(2) {
+  display: grid;
+  flex-wrap: wrap;
+  margin-right: 0;
+}
+
+.main__info-box:nth-child(2)::before {
+  content: "";
+  background-image: url(../../../images/call.png);
+  width: 32px;
+  height: 32px;
+  margin: 5px 5px 0px 0px;
+  grid-row: 1/3;
+}
+
+.main__info-box:nth-child(1)::before {
+  content: "";
+  background-image: url(../../../images/gis.png);
+  width: 32px;
+  height: 32px;
+  margin: 5px 5px 0px 0px;
+}
+
+@media screen and (max-width: 680px) {
+  .main__info-box:nth-child(2)::after {
+    content: "";
+    background-image: url(../../../images/call.png);
+    width: 32px;
+    height: 32px;
+    margin: 5px 5px 0px 34px;
+    grid-column: 3;
+  }
+  .main__info-box:nth-child(2)::before {
+    grid-column: 1;
+  }
+  .main__info-box {
+    align-items: center;
+    justify-content: start;
+  }
+  .main__info-box:nth-child(2) {
+    margin-top: 33px;
+  }
+}

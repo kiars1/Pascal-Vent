@@ -1,0 +1,50 @@
+.client__background {
+  z-index: 2;
+  background-color: #D9FADD;
+  width: 52vw;
+  height: 200px;
+  position:absolute;
+  left: 0px;
+  box-shadow: 0px 0px 10px 10px rgba(217, 250, 221, 1);
+}
+
+@media screen and (max-width: 1250px) {
+  .client__background {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .client__background {
+    width: 5vw;
+    margin-top: 200px;
+    height: 200px;
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .client__background {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .client__background {
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .client__background {
+    margin-top: 250px;
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  .client__background {
+    margin-top: 300px;
+    height: 380px;
+  }
+}

@@ -1,0 +1,29 @@
+.services__punkt {
+  font-size: 20px;
+  line-height: 30px;
+  color: #495D4C;
+  width: 400px;
+  margin: 0px 0px 16px 0px;
+  display: flex;
+}
+
+@media screen and (max-width: 1400px) {
+  .services__punkt {
+    font-size: 1.389vw;
+    font-weight: 2.083vw;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .services__punkt {
+    margin: 0px 0px 20px 0px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .services__punkt {
+    font-size: 16px;
+    font-weight: 19.5px;
+  }
+}

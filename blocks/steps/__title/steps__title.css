@@ -1,0 +1,25 @@
+.steps__title {
+  grid-row: 1;
+  grid-column: 2;
+  width: 550px;
+  padding-left: 10px;
+  justify-self: end;
+}
+
+@media screen and (max-width: 1440px) {
+  .steps__title {
+    width: 38.194vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .steps__title {
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: center;
+    max-width: 90%;
+    min-width: 280px;
+    margin: auto;
+    padding: 0px;
+  }
+}

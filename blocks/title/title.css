@@ -1,0 +1,23 @@
+.title {
+  font-size: 45px;
+  line-height: 60px;
+  font-weight: 200;
+  text-transform: capitalize;
+  font-family: 'Ruberoid';
+  color: #495E4C;
+  margin: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .title {
+    font-size: 3.13vw;
+    line-height: 4.17vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .title {
+    font-size: 24px;
+    line-height: 38px;
+  }
+}

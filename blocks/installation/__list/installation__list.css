@@ -1,0 +1,22 @@
+.installation__list {
+  display: grid;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  grid-template-columns: repeat(4,1fr);
+  gap: 35px;
+
+}
+
+@media screen and (max-width: 1430px) {
+  .installation__list {
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .installation__list {
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+  }
+}

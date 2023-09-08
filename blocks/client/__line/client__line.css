@@ -1,0 +1,16 @@
+.client__line {
+  border: solid #78C081 1px;
+  width: 20%;
+  max-width: 98px;
+  position: relative;
+  bottom: 25px;
+  left: 520px;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 1391px) {
+  .client__line {
+    opacity: 0;
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+.swiper-button-disabled {
+  background-image: url(../../../images/left.svg) !important;
+  background-color: #fcfcfc !important;
+  transition: background-color 1s ease;
+  opacity: 1 !important;
+  box-shadow: 0px 0px 2px 5px rgba(255, 255, 255, 0.6) !important;
+}
+
+.swiper-button-disabled:disabled {
+  background-image: url(../../../images/left.svg) !important;
+  background-color: #fcfcfc !important;
+  transition: background-color 1s ease;
+}

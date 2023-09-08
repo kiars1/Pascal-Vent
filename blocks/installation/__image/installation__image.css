@@ -1,0 +1,22 @@
+.installation__image {
+  height: 135px;
+  width: 257px;
+  object-fit: cover;
+  object-position: 0% 100%;
+  overflow: hidden;
+  grid-column: 1/3;
+  grid-row: 1/4;
+  z-index: 1;
+  transition: transform 1s ease;
+  pointer-events: none;
+}
+
+.installation__image_fix {
+  object-position: 0% 200% !important;
+}
+
+@media screen and (max-width: 640px) {
+  .installation__image {
+    width: 43vw;
+  }
+}

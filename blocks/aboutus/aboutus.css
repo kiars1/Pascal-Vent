@@ -1,0 +1,17 @@
+.aboutus {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+}
+
+@media screen and (max-width: 1400px) {
+  .aboutus {
+    max-width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1235px) {
+  .aboutus {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,21 @@
+.footer__title {
+  font-family: 'Ruberoid', sans-serif;
+  font-size: 26px;
+  line-height: 35px;
+  color: #495E4C;
+  margin: 0px;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__title {
+    font-size: 1.81vw;
+    line-height: 2.43vw;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .footer__title {
+    font-size: 22px;
+    line-height: 29.55px;
+  }
+}

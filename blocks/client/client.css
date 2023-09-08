@@ -1,0 +1,14 @@
+.client {
+  background-image: url(../../images/wave.svg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  border-bottom: solid 2px rgba(124, 162, 129, 0.3);
+  margin-top: 100px;
+  width: 100vw;
+}
+
+@media screen and (max-width: 900px) {
+  .client {
+    margin-top: 0px;
+  }
+}

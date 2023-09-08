@@ -1,0 +1,19 @@
+.steps__paragraph {
+  color: #7CA381;
+  display: flex;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+
+.steps__paragraph::before {
+  content: "";
+  display: block;
+  position: relative;
+  background-image: url(../../../images/cooler.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+  animation: rotation 5s linear infinite;
+  flex-shrink: 0;
+}

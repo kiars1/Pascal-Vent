@@ -1,0 +1,24 @@
+.popup__line {
+  max-width: 123px;
+  width: 15vw;
+  border: solid #78C081 1px;
+  position: relative;
+  bottom: 25px;
+  left: 180px;
+  border-radius: 2px;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1050px) {
+  .popup__line  {
+    bottom: 20px;
+    left: 15vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .popup__line  {
+    left: 120px;
+    bottom: 18px;
+  }
+}
