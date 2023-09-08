@@ -33,7 +33,7 @@
    > ### ВНИМАНИЕ!
    > [Ссылка](https://docs.google.com/spreadsheets/d/1hA40SR9eXGamHbe_n4P9q4QEqJ-z5hhuEUyY-tPwWN8/edit?usp=sharing) на таблицу рабочая.
    > Предоставлено право доступа только на чтение. Поэтому особо важно не использовать реальные персональные данные для проверки работоспособности данной функции.
-   > 
+
    > Данный способ сбора информации был выбрал для реализации с использование GH-Pages, или иным ресурсам без поддержки PHP или наличия back-end'а.
    > Хотя я отдаю себе отчет, что возможны проблемы, т.к. в данном формате пользователь не получает сообщения об успешной/неуспешной отправке формы.
 
@@ -46,7 +46,7 @@
 
    [Страница Pascal Vent](https://kiars1.github.io/Pascal-Vent)
    
-   <img src="./images/Pascal.png" max-width="1000" title="Pascal Vent">
+   <a href="https://kiars1.github.io/Pascal-Vent"><img src="./images/Pascal.png" max-width="1000" title="Pascal Vent"></a>
 
 ## Развитие проекта
 
