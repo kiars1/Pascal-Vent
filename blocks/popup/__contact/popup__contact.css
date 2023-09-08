@@ -9,13 +9,13 @@
 
 @media screen and (max-height: 830px) {
   .popup__contact {
-    margin-top: 10vh;
+    margin-top: 10%;
   }
 }
 
 @media screen and (max-height: 570px) {
   .popup__contact {
-    margin-top: 40vh;
+    margin-top: 40%;
   }
 }
 

@@ -3,6 +3,7 @@
   margin-left: 5%;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 1440px) {
