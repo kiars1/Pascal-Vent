@@ -36,7 +36,7 @@ If you follow along with this tutorial, you'll end up with a new React app—hos
 
    [Страница Pascal Vent](https://kiars1.github.io/Pascal-Vent).
    
-   <img src="./images/Pascal.png" height="10vw" title="Pascal Vent">
+   <img src="./images/Pascal.png" height="300" title="Pascal Vent">
 
 ### Развитие проекта
 
