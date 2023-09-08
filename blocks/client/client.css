@@ -4,8 +4,6 @@
   background-size:cover;
   border-bottom: solid 2px rgba(124, 162, 129, 0.3);
   margin-top: 100px;
-  width: 100vw;
-  overflow: hidden;
 }
 
 @media screen and (max-width: 900px) {
