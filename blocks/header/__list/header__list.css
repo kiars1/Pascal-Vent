@@ -4,6 +4,7 @@
   display: grid;
   gap: 40px;
   grid-auto-flow: column;
+  align-items: center;
 }
 
 @media screen and (max-width: 1400px) {
