@@ -8,9 +8,9 @@
   user-select: none;
   outline: none;
   border-radius: 15px;
-
   margin: auto;
-  display: grid;
+  display: flex;
+  padding: 0px;
   justify-content: center;
 }
 
