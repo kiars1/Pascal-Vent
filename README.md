@@ -1,6 +1,6 @@
 # Проект Pascal Vent
 
-<img src="./images/logo.png" max-width="1000" title="Pascal Vent">
+<img src="./images/logo.png" width="1000" title="Pascal Vent">
 
 ## Введение
 
