@@ -75,6 +75,11 @@ class Popup {
     if (this._popupElement.classList[1] === "popup__header") {
       headerButtonAnimation.classList.remove("header__button-content_close");
     }
+
+    if (this._popupElement.querySelector(".form") !== null) {
+      this._popupElement.querySelector(".form").reset();
+    }
+
     document.body.style.paddingRight = "0px"; //Фикс чтобы окно не сьезжало
   }
 
@@ -177,7 +182,7 @@ class FormValidator {
   //Говорим пользователю чтобы он убрар кота от клавиатуры и написал нормально
   _checkinputValidity(inputElement) {
     if (!inputElement.validity.valid) {
-      this._addInputError(inputElement, inputElement.validationMessage);
+      this._addInputError(inputElement);
     } else {
       this._removeInputError(inputElement);
     }
@@ -259,6 +264,7 @@ const openForm = (forma) => {
 
 const validForm = (forma) => {
   const FormValidationActivated = new FormValidator(validationConfig, forma);
+  console.log(FormValidationActivated)
   FormValidationActivated.enableValidation();
 };
 
