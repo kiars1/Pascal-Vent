@@ -92,7 +92,7 @@ class Popup {
 
   //Закрытие popup кликом на пустую область/крестик
   setEventListeners() {
-    this._popupElement.addEventListener("mouseup", (evt) => {
+    this._popupElement.addEventListener('mousedown', (evt) => {
       if (
         evt.target.classList.contains("popup__close") ||
         evt.target.classList.contains("popup")
@@ -143,6 +143,7 @@ class Form {
       } catch (e) {
       } finally {
         evt.target.reset();
+        popupCall.close();
       }
     });
   }
@@ -264,7 +265,6 @@ const openForm = (forma) => {
 
 const validForm = (forma) => {
   const FormValidationActivated = new FormValidator(validationConfig, forma);
-  console.log(FormValidationActivated)
   FormValidationActivated.enableValidation();
 };
 
@@ -280,7 +280,7 @@ popupPhone.setEventListeners();
 popupCall.setEventListeners();
 popupHeader.setEventListeners();
 
-headerButton.addEventListener("mouseup", () => {
+headerButton.addEventListener('mousedown', () => {
   if (headerButton.classList.length === 1) {
     popupCall.close();
     popupPhone.close();
@@ -292,30 +292,30 @@ headerButton.addEventListener("mouseup", () => {
   }
 });
 
-navPopup.addEventListener("mouseup", () => {
+navPopup.addEventListener('mousedown', () => {
   popupCall.close();
   popupPhone.close();
   popupHeader.close();
 });
 
 function checkButtonForm(button) {
-  button.addEventListener("mouseup", () => {
+  button.addEventListener('mousedown', () => {
     popupCall.open();
   });
 }
 
 function checkButtonPhone(button) {
-  button.addEventListener("mouseup", () => {
+  button.addEventListener('mousedown', () => {
     popupHeader.close();
     popupPhone.open();
   });
 }
 
-buttonVent.addEventListener("mouseup", () => {
+buttonVent.addEventListener('mousedown', () => {
   changeListVent.open();
 });
 
-buttonCond.addEventListener("mouseup", () => {
+buttonCond.addEventListener('mousedown', () => {
   changeListCond.open();
 });
 
