@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 680px) {
   .main__info-text {
-    font-size: 14px !important;
+    font-size: 11px !important;
     line-height: 24px !important;
   }
 }
