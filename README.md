@@ -50,11 +50,27 @@
    
    <img src="./images/Pascal.png" max-width="1000" title="Pascal Vent">
 
+
+## Демонстрация
+
+  При заполнении формы вас будет ждать валидация.
+
+  > <img src="./images/demo1.png" max-width="300" title="Pascal Vent">
+
+  - Имя - только русские буквы. 
+  - Телефон - только номера с префиксом +7. (другие не даст ввести маска).
+
+  После отправки формы все данные появляются в файле <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Google_Sheets_logo_%282014-2020%29.svg/1498px-Google_Sheets_logo_%282014-2020%29.svg.png" height="15" title="Google Sheets"> [Google Sheets](https://docs.google.com/spreadsheets/d/1hA40SR9eXGamHbe_n4P9q4QEqJ-z5hhuEUyY-tPwWN8/edit?usp=sharing).
+
+  > <img src="./images/demo2.png" max-width="300" title="Pascal Vent">
+
+
 ## Развитие проекта
 
 В дальнейшем планируется:
 ❌ Реализация добавления фото-эелементов с помощью "template". Для удобного обновления информации.
 ✅  Добавление анимаций при скролинге.
 ❌ Добавление сообщения об отправке.
+❌ Поиск и исправление багов.
 ✅ Сбрасывание валидации формы при закрытии POPUP.
 ✅ Оптимизация под Safari.
