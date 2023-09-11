@@ -44,13 +44,6 @@
    > Изначально планировалось использовать API imask.js. Но вариант из видео оказался намного интереснее и функциональнее.
    > В код было добавлено небольшое изменение для адаптации маски только под номера с кодом страны +7.
 
-## Ссылка на проект
-
-   [Страница Pascal Vent](https://kiars1.github.io/pascal-vent)
-   
-   <img src="./images/Pascal.png" max-width="1000" title="Pascal Vent">
-
-
 ## Демонстрация
 
   При заполнении формы вас будет ждать валидация.
@@ -64,6 +57,11 @@
 
   > <img src="./images/demo2.png" max-width="300" title="Pascal Vent">
 
+## Ссылка на проект
+
+   [Страница Pascal Vent](https://kiars1.github.io/pascal-vent)
+   
+   <img src="./images/Pascal.png" max-width="1000" title="Pascal Vent">
 
 ## Развитие проекта
 
