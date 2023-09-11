@@ -1,5 +1,6 @@
 .popup__header {
-  padding: 0px 0px 0px 50vw;
+  padding: 0px;
+  margin-left: 100vw;
   opacity: 0;
   transition:  0.3s ease;
   backdrop-filter: blur(7px);
