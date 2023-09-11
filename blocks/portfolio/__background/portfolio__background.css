@@ -11,7 +11,6 @@
   position: relative;
   bottom: 150px;
   right: 200px;
-  z-index: -1;
 }
 
 @media screen and (max-width: 900px) {

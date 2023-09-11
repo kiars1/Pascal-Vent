@@ -5,6 +5,7 @@
   background-size: 30%;
   width: 34px;
   height: 34px;
+  opacity: 1;
   border-radius: 50%;
   box-shadow: 0px 0px 2px 5px rgba(120, 192, 129, 0.25) !important;
 }

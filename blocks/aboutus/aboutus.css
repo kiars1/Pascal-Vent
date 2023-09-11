@@ -2,6 +2,7 @@
   max-width: 1440px;
   margin: auto;
   display: flex;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 1400px) {

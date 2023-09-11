@@ -3,8 +3,8 @@
   background-repeat: no-repeat;
   background-size:cover;
   border-bottom: solid 2px rgba(124, 162, 129, 0.3);
-  margin-top: 100px;
   overflow: hidden;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 900px) {

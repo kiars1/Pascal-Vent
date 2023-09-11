@@ -4,6 +4,10 @@
   margin-top: 100px;
   display: grid;
   justify-content: start;
+  opacity: 0;
+  transition: 1s ease;
+  position: relative;
+  margin-bottom: 100px;
 }
 
 @media screen and (max-width: 1400px) {

@@ -4,6 +4,8 @@
   background-size: inherit;
   background-position: 50% 50%;
   margin: auto;
+  background-color: #fff;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 950px) {

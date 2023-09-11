@@ -5,6 +5,8 @@
   z-index: 0;
   pointer-events: none;
   height: 100%;
+  opacity: 0;
+  transition: 1s ease;
 }
 
 @media screen and (max-width: 680px) {

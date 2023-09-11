@@ -1,6 +1,7 @@
 .system {
   margin: auto;
   max-width: 1240px;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 1400px) {

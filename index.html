@@ -77,8 +77,8 @@
             <a class="main__info-text" href="tel:+74243678929">+ 7 424 367 89 29</a>
           </div>
         </div>
-        <button class="button main__button" id="phonePhone">Оставить заявку</button>
-        <img src="./images/fresh.png" class="main__background">
+        <button class="button main__button _right" id="phonePhone" style="right: 100%;">Оставить заявку</button>
+        <img src="./images/fresh.png" class="main__background _left" style="left: 100%;">
       </div>
     </section>
     <section class="services" id="services">
@@ -147,42 +147,42 @@
         </h2>
         <div class="installation__price">
           <ul class="installation__list">
-            <li class="installation__box">
+            <li class="installation__box _left" style="left: 200%">
               <p class="installation__subtitle">от 100 000 ₽</p>
               <img class="installation__image" src="./images/price1.jpg">
               <h2 class="installation__text">Квартиры и офисы</h2>
             </li>
-            <li class="installation__box">
+            <li class="installation__box _left" style="left: 250%">
               <p class="installation__subtitle">от 100 000 ₽</p>
               <img class="installation__image" src="./images/price2.jpg">
               <h2 class="installation__text">Магазины и ТЦ</h2>
             </li>
-            <li class="installation__box">
+            <li class="installation__box _left" style="left: 300%">
               <p class="installation__subtitle">от 150 000 ₽</p>
               <img class="installation__image" src="./images/price3.jpg">
               <h2 class="installation__text">Фитнес центры</h2>
             </li>
-            <li class="installation__box">
+            <li class="installation__box _left" style="left: 350%">
               <p class="installation__subtitle">от 150 000 ₽</p>
               <img class="installation__image installation__image_fix" src="./images/price4.jpg">
               <h2 class="installation__text">Бассейны</h2>
             </li>
-            <li class="installation__box">
+            <li class="installation__box _left" style="left: 400%">
               <p class="installation__subtitle">от 200 000 ₽</p>
               <img class="installation__image" src="./images/price5.jpg">
               <h2 class="installation__text installation__text_fix">Загородные дома, коттеджи, таунхаусы</h2>
             </li>
-            <li class="installation__box">
+            <li class="installation__box _left" style="left: 450%">
               <p class="installation__subtitle">от 200 000 ₽</p>
               <img class="installation__image" src="./images/price6.jpg">
               <h2 class="installation__text">Рестораны, кафе, бары</h2>
             </li>
-            <li class="installation__box">
+            <li class="installation__box _left" style="left: 500%">
               <p class="installation__subtitle">от 200 000 ₽</p>
               <img class="installation__image" src="./images/price7.jpg">
               <h2 class="installation__text">Стоматологии, клиники</h2>
             </li>
-            <li class="installation__box">
+            <li class="installation__box _left" style="left: 550%">
               <p class="installation__subtitle">от 100 000 ₽</p>
               <img class="installation__image" src="./images/price8.jpg">
               <h2 class="installation__text">Салоны красоты, СПА</h2>
@@ -220,7 +220,7 @@
     <section class="contactus">
       <div class="contactus__container">
         <h2 class="contactus__title">Оставьте заявку и мы с вами свяжемся </h2>
-        <form class="form contactus__form" id="formContact" style="top: 100px;">
+        <form class="form contactus__form _top" id="formContact" style="top: 100px;">
           <input type="text" placeholder="Ваше имя" name="entry.1174483670" id="name" pattern="^[А-Яа-яЁё\s]+$"
             title="Сообщите ваше Имя и Фамилию" minlength="2" maxlength="30" class="contactus__input input" required>
           <span class="input-error contactus__input" id="name-error">Введите имя</span>
@@ -348,7 +348,7 @@
             санитарно-гигиенических, противопожарных и других норм и правил, и обеспечивают безопасную
             для жизни людей эксплуатацию объекта при соблюдении предусмотренных рабочими чертежами мероприятий.</p>
         </div>
-        <div class="portfolio__swipe">
+        <div class="portfolio__swipe _left" style="left: 500px;">
           <div class="portfolio__background"></div>
           <div class="swiper swiper1" id="ID_FIRST">
             <ul class="swiper-wrapper portfolio__wrapper">
@@ -405,7 +405,7 @@
             Донстрой, Пионер, Эталон, А101, Sminex, Vesper, Инград, КРОСТ, МИЦ. Мы ценим каждого
             клиента Pascal Vent и с радостью готовы расширять нашу клиентскую базу.</p>
         </div>
-        <div class="client__company" style="left: 300px;">
+        <div class="client__company _left" style="left: 300px;">
           <div class="swiper swiper2" id="ID_SECOND">
             <ul class="swiper-wrapper client__wrapper">
               <li class="swiper-slide client__slide"><img src="./images/comp1.png" class="client__image"></li>
@@ -511,7 +511,7 @@
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.js"></script>
-  <script src="./script.js"></script>
+  <script type="module" src="./pages/script.js"></script>
 </body>
 
 </html>
